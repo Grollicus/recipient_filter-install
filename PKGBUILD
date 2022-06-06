@@ -5,7 +5,7 @@
 
 # Maintainer: Grollicus <youremail@domain.com>
 pkgname=recipient_filter
-pkgver=0.2.1
+pkgver=0.2.2
 pkgrel=1
 pkgdesc="Validate incoming email usernames against a Secret"
 arch=('i686' 'x86_64')
@@ -22,7 +22,7 @@ options=()
 install=
 source=("https://github.com/Grollicus/recipientfilter/archive/v$pkgver.tar.gz")
 noextract=()
-sha256sums=('84c9e6c98b7f61c60a1f5461e48e4bb8f743c5baa5bb09597e27433c40a9f993')
+sha256sums=('f369e55ded8c0ebbd07eaf9edd6bab8a75eb3f2dd546b236482786988c5040b5')
 
 build() {
 	cd "$srcdir/recipientfilter-${pkgver}/${pkgname}/"
